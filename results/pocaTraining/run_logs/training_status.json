@@ -1,0 +1,39 @@
+{
+    "HockeyAgent": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results\\pocaTraining\\HockeyAgent\\HockeyAgent-499968.onnx",
+                "reward": null,
+                "creation_time": 1750008106.0064335,
+                "auxillary_file_paths": [
+                    "results\\pocaTraining\\HockeyAgent\\HockeyAgent-499968.pt"
+                ]
+            },
+            {
+                "steps": 500800,
+                "file_path": "results\\pocaTraining\\HockeyAgent\\HockeyAgent-500800.onnx",
+                "reward": null,
+                "creation_time": 1750008106.3427157,
+                "auxillary_file_paths": [
+                    "results\\pocaTraining\\HockeyAgent\\HockeyAgent-500800.pt"
+                ]
+            }
+        ],
+        "elo": 1200.0,
+        "final_checkpoint": {
+            "steps": 500800,
+            "file_path": "results\\pocaTraining\\HockeyAgent.onnx",
+            "reward": null,
+            "creation_time": 1750008106.3427157,
+            "auxillary_file_paths": [
+                "results\\pocaTraining\\HockeyAgent\\HockeyAgent-500800.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
